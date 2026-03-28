@@ -10,7 +10,7 @@ st.title("Trader Performance vs Market Sentiment Dashboard")
 # Load data safely
 # -----------------------------
 try:
-    df = pd.read_csv("historical_data.csv")
+    df = pd.read_csv("https://drive.google.com/file/d/1wlp-kLAc8UiCir-XvlHNeiabICOzF3WC/view?usp=drive_link")
 except:
     st.error("Dataset not found. Please upload 'historical_data.csv'")
     st.stop()
